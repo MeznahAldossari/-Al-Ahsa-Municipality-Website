@@ -1,0 +1,116 @@
+.serviceView{
+    font-family: serif;
+    background-color: #f1f1f1;
+}
+
+.serviceView-nav{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.serviceView-nav:hover{
+    text-decoration: underline;
+}
+
+.raw-1{
+    width: 80%; 
+    margin: auto;
+    text-align: right;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+login  {
+    
+    direction: ltr;
+}
+
+.row-2{
+    width: 80%;
+    margin-top: 5rem;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+h1 { font-size: 1rem; }
+
+
+@media (min-width: 576px) {
+    h1 { font-size: 1.25rem;}
+    .btn{
+        background-color: #9A4B3F;
+        border-color: rgb(154, 75, 63);
+        color: #e7e7e7
+    }
+    
+    .btn:hover{
+        background-color: rgba(172, 86, 73, 0.9);;
+    }
+}
+@media (min-width: 768px) {
+    h1 { font-size: 1.5rem; }
+    .btn{
+        background-color: #9A4B3F;
+        border-color: rgb(154, 75, 63);
+        color: #e7e7e7
+    }
+    
+    .btn:hover{
+        background-color: rgba(172, 86, 73, 0.9);;
+    }
+}
+@media (min-width: 992px) {
+    h1 { font-size: 1.75rem; }
+    .btn{
+        background-color: #9A4B3F;
+        border-color: rgb(154, 75, 63);
+        color: #e7e7e7
+    }
+    
+    .btn:hover{
+        background-color: rgba(172, 86, 73, 0.9);;
+
+    }
+}
+@media (min-width: 1200px) {
+    h1 { font-size: 2rem; }
+    .btn{
+        background-color: #9A4B3F;
+        border-color: rgb(154, 75, 63);
+        color: #e7e7e7
+    }
+    
+    .btn:hover{
+        background-color: rgba(172, 86, 73, 0.9);
+    }
+}
+
+.btn{
+    background-color: #9A4B3F;
+    color: #e7e7e7;
+    border-color: rgb(154, 75, 63);
+}
+
+.btn:hover{
+    background-color: rgba(172, 86, 73, 0.9);
+    color: #e7e7e7
+}
+
+.card-text{
+    font-size: 1.5rem;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card{
+    border-radius: 1rem;
+    border: 0.25rem solid #959D98;
+}
